@@ -1,0 +1,18 @@
+{
+  "name": "Update Component Documentation",
+  "description": "Prompt to update documentation when components are modified",
+  "trigger": {
+    "type": "onFileSave",
+    "filePattern": "components/**/*.tsx"
+  },
+  "actions": [
+    {
+      "type": "showNotification",
+      "message": "Component updated. Consider updating documentation if API changed.",
+      "severity": "info"
+    }
+  ],
+  "enabled": true,
+  "createdAt": "2025-10-16T09:00:00Z",
+  "updatedAt": "2025-10-16T09:00:00Z"
+}

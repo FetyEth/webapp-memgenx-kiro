@@ -1,0 +1,18 @@
+{
+  "name": "TypeScript Type Check on Save",
+  "description": "Automatically run TypeScript type checking when saving .ts or .tsx files",
+  "trigger": {
+    "type": "onFileSave",
+    "filePattern": "**/*.{ts,tsx}"
+  },
+  "actions": [
+    {
+      "type": "runCommand",
+      "command": "npx tsc --noEmit",
+      "showOutput": true
+    }
+  ],
+  "enabled": true,
+  "createdAt": "2025-10-15T10:30:00Z",
+  "updatedAt": "2025-10-15T10:30:00Z"
+}
