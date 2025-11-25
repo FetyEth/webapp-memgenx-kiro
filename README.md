@@ -66,6 +66,8 @@ Explore the `.kiro/` folder for comprehensive development documentation:
 
 ## 🎯 Features
 
+Note : UI may get Updated desired for business Use Case & Content too.
+
 ### Landing Page Sections
 
 - **Hero**: Eye-catching headline with floating brain animation and CTAs
@@ -82,7 +84,6 @@ Explore the `.kiro/` folder for comprehensive development documentation:
 - **Accessibility**: WCAG 2.1 AA compliant
 - **Performance**: 98+ Lighthouse score, 50KB gzipped bundle
 - **Type-Safe**: 100% TypeScript coverage
-- **Halloween Theme**: Purple/orange gradient design
 
 ## 🏗️ Tech Stack
 
@@ -92,6 +93,7 @@ Explore the `.kiro/` folder for comprehensive development documentation:
 - **UI Components**: shadcn/ui
 - **Authentication**: Supabase Auth
 - **Database**: Supabase (PostgreSQL)
+- **Payments**: Stripe
 - **Deployment**: Vercel
 
 ## 📁 Project Structure
@@ -192,7 +194,6 @@ NEXT_PUBLIC_BACKEND_URL=https://your-backend.onrender.com
 ### Tailwind Configuration
 
 The app uses a custom Tailwind theme with:
-- Purple/orange gradient (Halloween theme)
 - Dark mode by default
 - Custom animations
 - Responsive breakpoints
